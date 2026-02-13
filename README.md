@@ -1,4 +1,4 @@
-# 🏢 Virtual Office - 虛擬辦公室 Dashboard
+﻿# 🏢 Virtual Office - 虛擬辦公室 Dashboard
 
 一個視覺化的 AI 團隊協作系統，以可愛的像素藝術風格呈現 AI Agents 的工作狀態。
 
@@ -411,5 +411,36 @@ docker-compose down
 docker-compose build --no-cache
 docker-compose up -d
 ```
+
+## 🤝 貢獻
+
+歡迎提交 Pull Request 或回報 Issue！
+
+## 🎉 更新日誌
+
+### v2.0.0 (2026-02-07)
+- ✨ 新增：Agent 自動偵測與設定（自動掃描 ~/.openclaw/agents/）
+- ✨ 新增：Skills 管理與列表頁面
+- ✨ 新增：Port 掃描功能（安全監控）
+- ✨ 新增：Prompt Guard（Prompt Injection 檢測）
+- ✨ 新增：Agent-Skill 關聯追蹤
+- 🔧 改進：資料庫 schema 擴充（5 個新表格）
+- 🔧 改進：前端導航優化
+- 📚 文件：完整的 API 文件和使用指南
+
+## 🙏 鳴謝
+
+- [Clawdbot](https://clawd.bot) - AI Agent 框架
+- [Anthropic Claude](https://www.anthropic.com/) - Prompt Guard AI
+- [KIE.ai](https://kie.ai) - 圖片生成 API
+- 偷懶辦公室團隊
+
+## 📊 專案統計
+
+- **前端頁面**：4 個（index, security, agents-config, skills）
+- **API 端點**：25+ 個
+- **資料庫表格**：10 個
+- **程式碼行數**：約 3000+ 行
+- **開發時間**：2 天
 
 "# Alfonsoffice" 
